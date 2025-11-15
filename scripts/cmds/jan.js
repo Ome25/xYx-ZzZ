@@ -22,7 +22,7 @@ module.exports = {
   config: {
     name: "bot",
     version: "1.7",
-    author: "RAFSAN",
+    author: "MahMUD",
     role: 0,
     category: "ai",
     guide: { 
@@ -196,3 +196,4 @@ async function getBotResponse(message) {
     console.error("API Error:", error.message || error);
     return "error janu 🥲";
   }
+ 
